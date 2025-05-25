@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Simulados</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Sistema de Simulados</h1>
+            <div class="nav-buttons">
+                <button onclick="mostrarSecao('criar')">Criar Simulado</button>
+                <button onclick="mostrarSecao('realizar')">Realizar Simulado</button>
+                <button onclick="mostrarSecao('historico')">Histórico</button>
+            </div>
+        </header>
+
+        <!-- Seção de Criação -->
+        <section id="criarSimulado" class="secao">
+            <div class="form-header">
+                <h2>Criar Novo Simulado</h2>
+            </div>
+
+            <div class="form-group">
+                <label for="nomeSimulado">Nome do Simulado:</label>
+                <input type="text" id="nomeSimulado" placeholder="Ex: Simulado de Matemática">
+            </div>
+
+            <div class="form-group">
+                <label for="nomeCriador">Seu Nome:</label>
+                <input type="text" id="nomeCriador" placeholder="Nome do criador">
+            </div>
+
+            <div class="form-group">
+                <label for="emailCriador">Seu Email (opcional):</label>
+                <input type="email" id="emailCriador" placeholder="email@exemplo.com">
+            </div>
+            
+            <div id="perguntasContainer"></div>
+            <button onclick="adicionarPergunta()" class="primary">Adicionar Pergunta</button>
+
+            <div class="actions">
+                <button onclick="exportarJSON()" class="primary">Exportar Simulado</button>
+                <button onclick="limparFormulario()" class="secondary">Limpar Tudo</button>
+            </div>
+        </section>
+
+        <!-- Seção de Realização -->
+        <section id="realizarSimulado" class="secao">
+            <div id="listaSimulados">
+                <h2>Simulados Disponíveis</h2>
+                <div class="file-upload">
+                    <input type="file" id="fileInput" accept=".json">
+                    <button onclick="carregarArquivo()">Carregar Simulado</button>
+                </div>
+                <div id="simuladosContainer"></div>
+            </div>
+
+            <div id="areaSimulado" style="display: none;">
+                <div id="timerContainer">
+                    <span>Tempo Restante:</span>
+                    <span id="timerDisplay">00:00</span>
+                </div>
+                <div id="perguntas"></div>
+                <div class="simulado-actions">
+                    <button onclick="finalizarSimulado()">Finalizar Simulado</button>
+                    <button onclick="revisarRespostas()">Revisar Respostas</button>
+                    <button onclick="fecharESair()">Cancelar</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção de Histórico -->
+        <section id="historicoSimulado" class="secao">
+            <div class="historico-tabs">
+                <button class="tab-active" onclick="mostrarHistorico('criados')">Simulados Criados</button>
+                <button onclick="mostrarHistorico('desempenho')">Meu Desempenho</button>
+            </div>
+
+            <div id="historicoCriados">
+                <h2>Simulados Criados</h2>
+                <ul id="historicoSimuladosCriados"></ul>
+            </div>
+
+            <div id="historicoDesempenho" style="display: none;">
+                <h2>Meu Desempenho</h2>
+                <button onclick="limparHistoricoDesempenho()" style="margin-top: 20px; background-color: #d9534f; color: white; padding: 5px; border: none; border-radius: 2px; cursor: pointer;">
+    Limpar Histórico
+</button>
+                <div id="dadosDesempenho"></div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Modal de Resultados -->
+    <div id="modalResultados" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="fecharModal()">&times;</span>
+            <div id="resultadoContent"></div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

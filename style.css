@@ -1,0 +1,368 @@
+/* Estilos Gerais */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+    color: #333;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+h1,
+h2,
+h3 {
+    color: #2c3e50;
+}
+
+/* Navegação */
+.nav-buttons button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin-left: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.nav-buttons button:hover {
+    background-color: #2980b9;
+}
+
+/* Seções */
+.secao {
+    display: none;
+}
+
+/* Formulário de Criação */
+.form-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/* Perguntas */
+.pergunta {
+    background: #f9f9f9;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border-left: 4px solid #3498db;
+}
+
+/* Modal */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 800px;
+    border-radius: 5px;
+    max-height: 80vh;
+    overflow-y: auto;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Timer */
+#timerContainer {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    background: #f8f9fa;
+    border-radius: 5px;
+}
+
+#timerDisplay {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.timer-warning {
+    background-color: #fff3cd !important;
+    color: #856404 !important;
+}
+
+.timer-danger {
+    background-color: #f8d7da !important;
+    color: #721c24 !important;
+}
+
+/* Cards de Simulados */
+.simulado-card {
+    background: white;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.simulado-card:hover {
+    transform: translateY(-3px);
+}
+
+/* Botões */
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s;
+}
+
+button.primary {
+    background-color: #28a745;
+    color: white;
+}
+
+button.secondary {
+    background-color: #6c757d;
+    color: white;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav-buttons {
+        margin-top: 15px;
+    }
+
+    .nav-buttons button {
+        margin: 5px;
+    }
+}
+
+/* Estilos para questões */
+.question {
+    margin-bottom: 30px;
+    padding: 15px;
+    background: #f9f9f9;
+    border-radius: 5px;
+}
+
+.options li {
+    margin: 8px 0;
+}
+
+/* Estilos para o histórico */
+.historico-tabs {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.historico-tabs button {
+    flex: 1;
+    padding: 10px;
+    background: #ddd;
+    border: none;
+}
+
+.historico-tabs .tab-active {
+    background: #3498db;
+    color: white;
+}
+
+@media (max-width: 600px) {
+    .modal-content {
+        width: 95%;
+        margin: 10% auto;
+    }
+
+    .pergunta {
+        padding: 10px;
+    }
+
+    button {
+        padding: 8px 12px;
+        font-size: 14px;
+    }
+}
+
+.texto-com-quebras {
+    white-space: pre-line;
+}
+
+.legenda-imagem {
+    font-size: 0.9em;
+    color: #666;
+    font-style: italic;
+    margin-top: -10px;
+    margin-bottom: 15px;
+}
+
+.pergunta-header,
+.opcoes-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.btn-remover {
+    background-color: #dc3545;
+    color: white;
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+.opcao {
+    margin-bottom: 10px;
+    padding: 10px;
+    background: #fff;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+.opcao-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.opcao-texto {
+    flex-grow: 1;
+    margin-right: 10px;
+    padding: 5px;
+}
+
+.opcao-justificativa input {
+    width: 100%;
+    padding: 5px;
+}
+
+.actions {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.file-upload {
+    margin: 15px 0;
+    padding: 15px;
+    background: #f8f9fa;
+    border-radius: 5px;
+}
+
+.simulado-actions {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.desempenho-usuario {
+    margin-bottom: 30px;
+    padding: 15px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.usuario-nome {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+
+.simulado-info {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+.simulado-nome {
+    font-weight: bold;
+}
+
+.vezes-realizado {
+    font-size: 0.9em;
+    color: #666;
+    margin-left: 10px;
+}
+
+.grafico-container {
+    margin-top: 10px;
+    max-width: 100%;
+    overflow-x: auto;
+}
