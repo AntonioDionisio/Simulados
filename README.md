@@ -68,7 +68,7 @@ Um sistema completo para **criar, realizar e acompanhar** simulados de certifica
 
 Desenvolvido para ajudar na **preparação eficiente** para certificações profissionais. 🚀  
 
-*Crie, pratique, evolua!*  
+*Pratique, evolua!*  
 
 ---
 
