@@ -43,9 +43,13 @@ Um sistema completo para **criar, realizar e acompanhar** simulados de certifica
 ## 📦 Estrutura de Arquivos
 
 📂 simulados/
+
 ├── index.html # Página principal
+
 ├── script.js # Lógica da aplicação
+
 ├── style.css # Estilos
+
 └── simulados/ # Pasta para armazenar arquivos JSON
 
 ## 💡 Dicas para Certificações
