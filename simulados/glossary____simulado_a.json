@@ -1,0 +1,289 @@
+{
+  "id": "simulado-1748282452272",
+  "nome": "Glossary  - Simulado A",
+  "criador": "Antonio D. Souza",
+  "email": "",
+  "dataCriacao": "2025-05-26T18:00:52.272Z",
+  "perguntas": [
+    {
+      "enunciado": "Qual a principal diferença entre erro, defeito e falha?",
+      "complemento": "",
+      "imagem": null,
+      "legendaImagem": null,
+      "opcoes": [
+        {
+          "texto": "Erro é a execução incorreta de uma funcionalidade.",
+          "correta": false,
+          "justificativa": ""
+        },
+        {
+          "texto": "Defeito é a consequência de uma falha.",
+          "correta": false,
+          "justificativa": ""
+        },
+        {
+          "texto": "Erro é um engano humano; defeito é uma imperfeição no código; falha é a manifestação do defeito.",
+          "correta": true,
+          "justificativa": "Erro (mistake) é um engano humano; defeito (defect) é uma imperfeição no software causada por esse erro; e falha (failure) é quando o software se comporta de forma incorreta por causa do defeito."
+        },
+        {
+          "texto": "Falha ocorre sempre que há um erro de sintaxe.",
+          "correta": false,
+          "justificativa": ""
+        }
+      ]
+    },
+    {
+      "enunciado": "Qual é o principal objetivo da atividade de teste de software?",
+      "complemento": "",
+      "imagem": null,
+      "legendaImagem": null,
+      "opcoes": [
+        {
+          "texto": "Encontrar todos os defeitos do sistema.",
+          "correta": false,
+          "justificativa": ""
+        },
+        {
+          "texto": "Garantir que o sistema funcione perfeitamente.",
+          "correta": false,
+          "justificativa": ""
+        },
+        {
+          "texto": "Reduzir o risco de falhas e fornecer informações sobre a qualidade.",
+          "correta": true,
+          "justificativa": "O teste visa fornecer informações sobre a qualidade e reduzir riscos de falhas em produção. Não se trata de garantir perfeição ou detectar todos os defeitos."
+        },
+        {
+          "texto": "Eliminar todas as causas de erros humanos.",
+          "correta": false,
+          "justificativa": ""
+        }
+      ]
+    },
+    {
+      "enunciado": "A execução automatizada de scripts de validação.",
+      "complemento": "",
+      "imagem": null,
+      "legendaImagem": null,
+      "opcoes": [
+        {
+          "texto": "A execução automatizada de scripts de validação.",
+          "correta": false,
+          "justificativa": ""
+        },
+        {
+          "texto": "A execução de uma aplicação em busca de falhas. ",
+          "correta": true,
+          "justificativa": "Teste é a execução de um componente ou sistema com a intenção de encontrar falhas. Vai além da automação e envolve diversas abordagens."
+        },
+        {
+          "texto": "A inspeção do código-fonte por um especialista.",
+          "correta": false,
+          "justificativa": ""
+        },
+        {
+          "texto": "Um processo exclusivo da equipe de QA.",
+          "correta": false,
+          "justificativa": ""
+        }
+      ]
+    },
+    {
+      "enunciado": "Qual dos itens abaixo é um princípio do teste?",
+      "complemento": "",
+      "imagem": null,
+      "legendaImagem": null,
+      "opcoes": [
+        {
+          "texto": "Testes exaustivos são sempre possíveis.",
+          "correta": false,
+          "justificativa": ""
+        },
+        {
+          "texto": "Teste é suficiente para garantir qualidade.",
+          "correta": false,
+          "justificativa": ""
+        },
+        {
+          "texto": "Testar cedo ajuda a reduzir custos. ",
+          "correta": true,
+          "justificativa": "\"Testar cedo\" é um dos sete princípios do teste. Identificar defeitos nas fases iniciais do ciclo de vida é mais barato e eficaz."
+        },
+        {
+          "texto": "Testar uma vez é suficiente.",
+          "correta": false,
+          "justificativa": ""
+        }
+      ]
+    },
+    {
+      "enunciado": "O que é um defeito latente?",
+      "complemento": "",
+      "imagem": null,
+      "legendaImagem": null,
+      "opcoes": [
+        {
+          "texto": "Um defeito conhecido, mas ainda não corrigido.",
+          "correta": false,
+          "justificativa": ""
+        },
+        {
+          "texto": "Um defeito que não causa falhas até que certas condições sejam atendidas.",
+          "correta": true,
+          "justificativa": "Defeitos latentes são defeitos presentes no software, mas que ainda não se manifestaram como falhas."
+        },
+        {
+          "texto": "Um defeito que foi ignorado no relatório final.",
+          "correta": false,
+          "justificativa": ""
+        },
+        {
+          "texto": "Um defeito que ocorre apenas em versões antigas.",
+          "correta": false,
+          "justificativa": ""
+        }
+      ]
+    },
+    {
+      "enunciado": "Qual o papel do testador durante o ciclo de vida do software?",
+      "complemento": "",
+      "imagem": null,
+      "legendaImagem": null,
+      "opcoes": [
+        {
+          "texto": "Somente executar scripts manuais.",
+          "correta": false,
+          "justificativa": ""
+        },
+        {
+          "texto": "Apenas relatar falhas após o desenvolvimento.",
+          "correta": false,
+          "justificativa": ""
+        },
+        {
+          "texto": "Fornecer informações que apoiem decisões de qualidade. ",
+          "correta": true,
+          "justificativa": "O papel do testador é coletar evidências e ajudar os stakeholders a entenderem o nível de qualidade, contribuindo para decisões bem-informadas."
+        },
+        {
+          "texto": "Garantir que o software esteja livre de defeitos.",
+          "correta": false,
+          "justificativa": ""
+        }
+      ]
+    },
+    {
+      "enunciado": "Qual atividade não faz parte do processo de teste?",
+      "complemento": "",
+      "imagem": null,
+      "legendaImagem": null,
+      "opcoes": [
+        {
+          "texto": "Planejamento",
+          "correta": false,
+          "justificativa": ""
+        },
+        {
+          "texto": "Implementação",
+          "correta": false,
+          "justificativa": ""
+        },
+        {
+          "texto": "Execução",
+          "correta": false,
+          "justificativa": ""
+        },
+        {
+          "texto": "Compilação",
+          "correta": true,
+          "justificativa": "Compilação é uma atividade de desenvolvimento. O processo de teste envolve planejamento, análise, implementação, execução e encerramento."
+        }
+      ]
+    },
+    {
+      "enunciado": "O que são testes de confirmação?",
+      "complemento": "",
+      "imagem": null,
+      "legendaImagem": null,
+      "opcoes": [
+        {
+          "texto": "Testes para confirmar que uma correção resolveu o defeito.",
+          "correta": true,
+          "justificativa": "Testes de confirmação validam se uma falha foi realmente corrigida com sucesso, executando os mesmos passos da falha anterior."
+        },
+        {
+          "texto": "Testes para identificar a causa raiz do problema.",
+          "correta": false,
+          "justificativa": ""
+        },
+        {
+          "texto": "Testes feitos antes da liberação para produção.",
+          "correta": false,
+          "justificativa": ""
+        },
+        {
+          "texto": "Testes feitos com dados de produção reais.",
+          "correta": false,
+          "justificativa": ""
+        }
+      ]
+    },
+    {
+      "enunciado": "Qual a definição de qualidade de software, segundo o contexto de teste?",
+      "complemento": "",
+      "imagem": null,
+      "legendaImagem": null,
+      "opcoes": [
+        {
+          "texto": "A aparência estética da interface.",
+          "correta": false,
+          "justificativa": ""
+        },
+        {
+          "texto": "A ausência total de erros.",
+          "correta": false,
+          "justificativa": ""
+        },
+        {
+          "texto": "O grau com que um produto atende às expectativas explícitas e implícitas dos stakeholders.",
+          "correta": true,
+          "justificativa": "Qualidade é definida como o grau em que um produto satisfaz as necessidades especificadas e implícitas dos interessados."
+        },
+        {
+          "texto": "O número de funcionalidades que o sistema possui.",
+          "correta": false,
+          "justificativa": ""
+        }
+      ]
+    },
+    {
+      "enunciado": "O que é teste baseado em requisitos?",
+      "complemento": "",
+      "imagem": null,
+      "legendaImagem": null,
+      "opcoes": [
+        {
+          "texto": "Teste que valida o comportamento do código.",
+          "correta": false,
+          "justificativa": ""
+        },
+        {
+          "texto": "Teste baseado em decisões do desenvolvedor.",
+          "correta": false,
+          "justificativa": ""
+        },
+        {
+          "texto": "Teste baseado em documentos de especificação.",
+          "correta": true,
+          "justificativa": "Testes baseados em requisitos são projetados com base em documentos como especificações funcionais e user stories."
+        },
+        {
+          "texto": "Teste focado apenas na camada de banco de dados.",
+          "correta": false,
+          "justificativa": ""
+        }
+      ]
+    }
+  ]
+}
