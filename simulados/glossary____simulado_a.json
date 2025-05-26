@@ -1,6 +1,6 @@
 {
   "id": "simulado-1748282452272",
-  "nome": "Glossary  - Simulado A",
+  "nome": "Glossary - Simulado A",
   "criador": "Antonio D. Souza",
   "email": "",
   "dataCriacao": "2025-05-26T18:00:52.272Z",
@@ -62,7 +62,7 @@
       ]
     },
     {
-      "enunciado": "A execução automatizada de scripts de validação.",
+      "enunciado": "O que melhor descreve o que é um teste de software?",
       "complemento": "",
       "imagem": null,
       "legendaImagem": null,
