@@ -1,0 +1,289 @@
+{
+  "id": "simulado-4-fundamentos-glossario",
+  "nome": "Glossary - Simulado D",
+  "criador": "Antonio D. Souza",
+  "email": "",
+  "dataCriacao": "2025-05-27T00:00:00.000Z",
+  "perguntas": [
+    {
+      "enunciado": "O que é teste funcional?",
+      "complemento": "",
+      "imagem": null,
+      "legendaImagem": null,
+      "opcoes": [
+        {
+          "texto": "Testar o desempenho do sistema.",
+          "correta": false,
+          "justificativa": ""
+        },
+        {
+          "texto": "Testar as operações de um sistema de acordo com os requisitos.",
+          "correta": true,
+          "justificativa": "Teste funcional verifica se o sistema realiza as funções esperadas."
+        },
+        {
+          "texto": "Testar a estética da interface.",
+          "correta": false,
+          "justificativa": ""
+        },
+        {
+          "texto": "Testar o código-fonte diretamente.",
+          "correta": false,
+          "justificativa": ""
+        }
+      ]
+    },
+    {
+      "enunciado": "O que significa ‘cobertura de teste’?",
+      "complemento": "",
+      "imagem": null,
+      "legendaImagem": null,
+      "opcoes": [
+        {
+          "texto": "A área de atuação da equipe de testes.",
+          "correta": false,
+          "justificativa": ""
+        },
+        {
+          "texto": "A porcentagem do sistema testado em relação aos critérios definidos.",
+          "correta": true,
+          "justificativa": "A cobertura mostra quão bem os testes exploram os requisitos, código, caminhos etc."
+        },
+        {
+          "texto": "A abrangência da equipe de QA.",
+          "correta": false,
+          "justificativa": ""
+        },
+        {
+          "texto": "O plano de contratação de testadores.",
+          "correta": false,
+          "justificativa": ""
+        }
+      ]
+    },
+    {
+      "enunciado": "O que são artefatos de teste?",
+      "complemento": "",
+      "imagem": null,
+      "legendaImagem": null,
+      "opcoes": [
+        {
+          "texto": "Apenas os relatórios finais.",
+          "correta": false,
+          "justificativa": ""
+        },
+        {
+          "texto": "Documentos produzidos durante as atividades de teste.",
+          "correta": true,
+          "justificativa": "Artefatos incluem planos, casos de teste, scripts, relatórios etc."
+        },
+        {
+          "texto": "Logs de execução automática.",
+          "correta": false,
+          "justificativa": ""
+        },
+        {
+          "texto": "Apenas planos de teste.",
+          "correta": false,
+          "justificativa": ""
+        }
+      ]
+    },
+    {
+      "enunciado": "O que é teste negativo?",
+      "complemento": "",
+      "imagem": null,
+      "legendaImagem": null,
+      "opcoes": [
+        {
+          "texto": "Testar apenas inputs válidos.",
+          "correta": false,
+          "justificativa": ""
+        },
+        {
+          "texto": "Testar condições desfavoráveis e entradas inválidas.",
+          "correta": true,
+          "justificativa": "Teste negativo verifica se o sistema responde corretamente a entradas incorretas."
+        },
+        {
+          "texto": "Testar de forma pessimista.",
+          "correta": false,
+          "justificativa": ""
+        },
+        {
+          "texto": "Testar sem documentação.",
+          "correta": false,
+          "justificativa": ""
+        }
+      ]
+    },
+    {
+      "enunciado": "O que é um teste baseado em requisitos?",
+      "complemento": "",
+      "imagem": null,
+      "legendaImagem": null,
+      "opcoes": [
+        {
+          "texto": "Um teste baseado no código-fonte.",
+          "correta": false,
+          "justificativa": ""
+        },
+        {
+          "texto": "Um teste que considera regras de negócio documentadas.",
+          "correta": true,
+          "justificativa": "Esse tipo de teste valida se o sistema atende ao que foi especificado nos requisitos."
+        },
+        {
+          "texto": "Um teste improvisado.",
+          "correta": false,
+          "justificativa": ""
+        },
+        {
+          "texto": "Um teste de baixo valor.",
+          "correta": false,
+          "justificativa": ""
+        }
+      ]
+    },
+    {
+      "enunciado": "O que define um bug crítico?",
+      "complemento": "",
+      "imagem": null,
+      "legendaImagem": null,
+      "opcoes": [
+        {
+          "texto": "Um bug que afeta apenas o visual.",
+          "correta": false,
+          "justificativa": ""
+        },
+        {
+          "texto": "Um bug com baixo impacto.",
+          "correta": false,
+          "justificativa": ""
+        },
+        {
+          "texto": "Um bug que impede o uso da funcionalidade principal.",
+          "correta": true,
+          "justificativa": "Bugs críticos paralisam o funcionamento do sistema ou uma funcionalidade essencial."
+        },
+        {
+          "texto": "Um bug fácil de corrigir.",
+          "correta": false,
+          "justificativa": ""
+        }
+      ]
+    },
+    {
+      "enunciado": "O que é qualidade do software?",
+      "complemento": "",
+      "imagem": null,
+      "legendaImagem": null,
+      "opcoes": [
+        {
+          "texto": "Beleza do código.",
+          "correta": false,
+          "justificativa": ""
+        },
+        {
+          "texto": "Conformidade com padrões de segurança.",
+          "correta": false,
+          "justificativa": ""
+        },
+        {
+          "texto": "Grau em que o software satisfaz os requisitos e expectativas.",
+          "correta": true,
+          "justificativa": "Qualidade é a capacidade do sistema de atender a requisitos explícitos e implícitos."
+        },
+        {
+          "texto": "Interface moderna.",
+          "correta": false,
+          "justificativa": ""
+        }
+      ]
+    },
+    {
+      "enunciado": "O que é testabilidade?",
+      "complemento": "",
+      "imagem": null,
+      "legendaImagem": null,
+      "opcoes": [
+        {
+          "texto": "Facilidade com que o software pode ser testado.",
+          "correta": true,
+          "justificativa": "Alta testabilidade facilita a criação, execução e análise de testes."
+        },
+        {
+          "texto": "Capacidade de operar com muitos usuários.",
+          "correta": false,
+          "justificativa": ""
+        },
+        {
+          "texto": "Compatibilidade com outros softwares.",
+          "correta": false,
+          "justificativa": ""
+        },
+        {
+          "texto": "Facilidade de instalação.",
+          "correta": false,
+          "justificativa": ""
+        }
+      ]
+    },
+    {
+      "enunciado": "O que é métricas de teste?",
+      "complemento": "",
+      "imagem": null,
+      "legendaImagem": null,
+      "opcoes": [
+        {
+          "texto": "Relatórios de marketing.",
+          "correta": false,
+          "justificativa": ""
+        },
+        {
+          "texto": "Medidas utilizadas para avaliar processos e resultados de teste.",
+          "correta": true,
+          "justificativa": "Métricas ajudam a tomar decisões e melhorar a eficiência dos testes."
+        },
+        {
+          "texto": "Número de linhas de código.",
+          "correta": false,
+          "justificativa": ""
+        },
+        {
+          "texto": "Gráficos de design.",
+          "correta": false,
+          "justificativa": ""
+        }
+      ]
+    },
+    {
+      "enunciado": "Qual é o termo para 'erro de lógica que resulta em falha'?",
+      "complemento": "",
+      "imagem": null,
+      "legendaImagem": null,
+      "opcoes": [
+        {
+          "texto": "Defeito.",
+          "correta": true,
+          "justificativa": "Um erro lógico inserido no código que pode causar falha é classificado como defeito."
+        },
+        {
+          "texto": "Falha.",
+          "correta": false,
+          "justificativa": ""
+        },
+        {
+          "texto": "Anomalia.",
+          "correta": false,
+          "justificativa": ""
+        },
+        {
+          "texto": "Bug gráfico.",
+          "correta": false,
+          "justificativa": ""
+        }
+      ]
+    }
+  ]
+}

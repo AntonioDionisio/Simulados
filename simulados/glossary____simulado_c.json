@@ -1,0 +1,289 @@
+{
+  "id": "simulado-3-fundamentos-testes",
+  "nome": "Glossary - Simulado C",
+  "criador": "Antonio D. Souza",
+  "email": "",
+  "dataCriacao": "2025-05-27T00:00:00.000Z",
+  "perguntas": [
+    {
+      "enunciado": "Qual é o principal objetivo do teste de software?",
+      "complemento": "",
+      "imagem": null,
+      "legendaImagem": null,
+      "opcoes": [
+        {
+          "texto": "Tornar o software mais bonito.",
+          "correta": false,
+          "justificativa": ""
+        },
+        {
+          "texto": "Demonstrar que o software não possui defeitos.",
+          "correta": false,
+          "justificativa": ""
+        },
+        {
+          "texto": "Aumentar a produtividade dos desenvolvedores.",
+          "correta": false,
+          "justificativa": ""
+        },
+        {
+          "texto": "Encontrar falhas para melhorar a qualidade do software.",
+          "correta": true,
+          "justificativa": "O objetivo principal é identificar falhas antes que o software entre em produção."
+        }
+      ]
+    },
+    {
+      "enunciado": "Qual dos seguintes não é um princípio fundamental do teste?",
+      "complemento": "",
+      "imagem": null,
+      "legendaImagem": null,
+      "opcoes": [
+        {
+          "texto": "Teste mostra a presença de defeitos.",
+          "correta": false,
+          "justificativa": ""
+        },
+        {
+          "texto": "Teste exaustivo é possível.",
+          "correta": true,
+          "justificativa": "O teste exaustivo não é viável na prática. Essa afirmação viola um princípio fundamental."
+        },
+        {
+          "texto": "Teste deve começar cedo.",
+          "correta": false,
+          "justificativa": ""
+        },
+        {
+          "texto": "A ausência de erros não garante a utilidade.",
+          "correta": false,
+          "justificativa": ""
+        }
+      ]
+    },
+    {
+      "enunciado": "O que são testes baseados em risco?",
+      "complemento": "",
+      "imagem": null,
+      "legendaImagem": null,
+      "opcoes": [
+        {
+          "texto": "Testes feitos apenas após a homologação.",
+          "correta": false,
+          "justificativa": ""
+        },
+        {
+          "texto": "Testes realizados apenas por gerentes.",
+          "correta": false,
+          "justificativa": ""
+        },
+        {
+          "texto": "Testes priorizados com base na probabilidade e impacto de falhas.",
+          "correta": true,
+          "justificativa": "Ao priorizar riscos, os testes se concentram onde há maior chance de falhas críticas."
+        },
+        {
+          "texto": "Testes que nunca são automatizados.",
+          "correta": false,
+          "justificativa": ""
+        }
+      ]
+    },
+    {
+      "enunciado": "Qual é o papel do testador em um projeto?",
+      "complemento": "",
+      "imagem": null,
+      "legendaImagem": null,
+      "opcoes": [
+        {
+          "texto": "Criar requisitos técnicos.",
+          "correta": false,
+          "justificativa": ""
+        },
+        {
+          "texto": "Planejar, especificar, executar e relatar testes.",
+          "correta": true,
+          "justificativa": "O testador realiza todas as atividades relacionadas ao ciclo de vida dos testes."
+        },
+        {
+          "texto": "Gerenciar o banco de dados.",
+          "correta": false,
+          "justificativa": ""
+        },
+        {
+          "texto": "Codificar interfaces gráficas.",
+          "correta": false,
+          "justificativa": ""
+        }
+      ]
+    },
+    {
+      "enunciado": "O que é uma anomalia?",
+      "complemento": "",
+      "imagem": null,
+      "legendaImagem": null,
+      "opcoes": [
+        {
+          "texto": "Uma melhoria solicitada pelo cliente.",
+          "correta": false,
+          "justificativa": ""
+        },
+        {
+          "texto": "Qualquer condição que se desvie da esperada.",
+          "correta": true,
+          "justificativa": "Uma anomalia é qualquer desvio do comportamento esperado, seja erro, falha, defeito, etc."
+        },
+        {
+          "texto": "Uma nova funcionalidade.",
+          "correta": false,
+          "justificativa": ""
+        },
+        {
+          "texto": "Um erro de digitação no código.",
+          "correta": false,
+          "justificativa": ""
+        }
+      ]
+    },
+    {
+      "enunciado": "O que o termo ‘falha’ representa?",
+      "complemento": "",
+      "imagem": null,
+      "legendaImagem": null,
+      "opcoes": [
+        {
+          "texto": "Um erro no código.",
+          "correta": false,
+          "justificativa": ""
+        },
+        {
+          "texto": "Um comportamento inesperado durante a execução.",
+          "correta": true,
+          "justificativa": "Falha ocorre quando um defeito é executado e gera um resultado inesperado."
+        },
+        {
+          "texto": "Uma melhoria solicitada.",
+          "correta": false,
+          "justificativa": ""
+        },
+        {
+          "texto": "Uma inconsistência na documentação.",
+          "correta": false,
+          "justificativa": ""
+        }
+      ]
+    },
+    {
+      "enunciado": "O que é um erro humano no ciclo de testes?",
+      "complemento": "",
+      "imagem": null,
+      "legendaImagem": null,
+      "opcoes": [
+        {
+          "texto": "Um bug de software.",
+          "correta": false,
+          "justificativa": ""
+        },
+        {
+          "texto": "Uma falha de hardware.",
+          "correta": false,
+          "justificativa": ""
+        },
+        {
+          "texto": "Uma omissão ou ação incorreta de uma pessoa.",
+          "correta": true,
+          "justificativa": "Erro humano é a origem de defeitos; acontece durante a análise, projeto, codificação etc."
+        },
+        {
+          "texto": "Um erro na execução automática.",
+          "correta": false,
+          "justificativa": ""
+        }
+      ]
+    },
+    {
+      "enunciado": "Qual conceito descreve 'revisar constantemente os testes com base em alterações no software'?",
+      "complemento": "",
+      "imagem": null,
+      "legendaImagem": null,
+      "opcoes": [
+        {
+          "texto": "Teste de regressão.",
+          "correta": false,
+          "justificativa": ""
+        },
+        {
+          "texto": "Teste estático.",
+          "correta": false,
+          "justificativa": ""
+        },
+        {
+          "texto": "Manutenção de testes.",
+          "correta": true,
+          "justificativa": "A manutenção de testes é essencial para acompanhar as mudanças no software."
+        },
+        {
+          "texto": "Automação de testes.",
+          "correta": false,
+          "justificativa": ""
+        }
+      ]
+    },
+    {
+      "enunciado": "O que o glossário define como teste de confirmação?",
+      "complemento": "",
+      "imagem": null,
+      "legendaImagem": null,
+      "opcoes": [
+        {
+          "texto": "Um teste para verificar se um defeito foi realmente corrigido.",
+          "correta": true,
+          "justificativa": "Teste de confirmação garante que a correção aplicada removeu o defeito identificado."
+        },
+        {
+          "texto": "Um teste para validar performance.",
+          "correta": false,
+          "justificativa": ""
+        },
+        {
+          "texto": "Um teste para testar usabilidade.",
+          "correta": false,
+          "justificativa": ""
+        },
+        {
+          "texto": "Um teste para simular falhas futuras.",
+          "correta": false,
+          "justificativa": ""
+        }
+      ]
+    },
+    {
+      "enunciado": "Qual das alternativas corresponde a uma causa raiz de defeito?",
+      "complemento": "",
+      "imagem": null,
+      "legendaImagem": null,
+      "opcoes": [
+        {
+          "texto": "Hardware antigo.",
+          "correta": false,
+          "justificativa": ""
+        },
+        {
+          "texto": "Comunicação inadequada dos requisitos.",
+          "correta": true,
+          "justificativa": "A má comunicação dos requisitos é uma das causas raiz mais comuns de defeitos."
+        },
+        {
+          "texto": "Banco de dados lento.",
+          "correta": false,
+          "justificativa": ""
+        },
+        {
+          "texto": "Código comentado.",
+          "correta": false,
+          "justificativa": ""
+        }
+      ]
+    }
+  ]
+}

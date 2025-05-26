@@ -1,0 +1,289 @@
+{
+  "id": "simulado-2-fundamentos-testes",
+  "nome": "Glossary - Simulado B)",
+  "criador": "Antonio D. Souza",
+  "email": "",
+  "dataCriacao": "2025-05-27T00:00:00.000Z",
+  "perguntas": [
+    {
+      "enunciado": "O que significa 'teste exaustivo'?",
+      "complemento": "",
+      "imagem": null,
+      "legendaImagem": null,
+      "opcoes": [
+        {
+          "texto": "Testar o sistema até que o cliente esteja satisfeito.",
+          "correta": false,
+          "justificativa": ""
+        },
+        {
+          "texto": "Testar todas as combinações possíveis de entradas e saídas.",
+          "correta": true,
+          "justificativa": "Teste exaustivo implica testar todas as combinações possíveis, o que geralmente é inviável por questões de tempo e custo."
+        },
+        {
+          "texto": "Executar todos os testes em paralelo.",
+          "correta": false,
+          "justificativa": ""
+        },
+        {
+          "texto": "Repetir o mesmo teste várias vezes.",
+          "correta": false,
+          "justificativa": ""
+        }
+      ]
+    },
+    {
+      "enunciado": "O que é teste exploratório?",
+      "complemento": "",
+      "imagem": null,
+      "legendaImagem": null,
+      "opcoes": [
+        {
+          "texto": "Teste guiado por um script fixo.",
+          "correta": false,
+          "justificativa": ""
+        },
+        {
+          "texto": "Teste baseado apenas em requisitos técnicos.",
+          "correta": false,
+          "justificativa": ""
+        },
+        {
+          "texto": "Teste simultâneo de aprendizado, design e execução.",
+          "correta": true,
+          "justificativa": "No teste exploratório, o testador aprende sobre o sistema enquanto testa, criando e executando testes em tempo real."
+        },
+        {
+          "texto": "Teste feito apenas por desenvolvedores.",
+          "correta": false,
+          "justificativa": ""
+        }
+      ]
+    },
+    {
+      "enunciado": "O que caracteriza uma falha intermitente?",
+      "complemento": "",
+      "imagem": null,
+      "legendaImagem": null,
+      "opcoes": [
+        {
+          "texto": "Uma falha que nunca pode ser reproduzida.",
+          "correta": false,
+          "justificativa": ""
+        },
+        {
+          "texto": "Uma falha causada por rede instável.",
+          "correta": false,
+          "justificativa": ""
+        },
+        {
+          "texto": "Uma falha que ocorre sob certas condições não constantes.",
+          "correta": true,
+          "justificativa": "Falhas intermitentes são aquelas que aparecem em situações específicas, não ocorrendo de forma consistente."
+        },
+        {
+          "texto": "Uma falha visível somente em código-fonte.",
+          "correta": false,
+          "justificativa": ""
+        }
+      ]
+    },
+    {
+      "enunciado": "Por que testar é importante mesmo quando os desenvolvedores revisam o código?",
+      "complemento": "",
+      "imagem": null,
+      "legendaImagem": null,
+      "opcoes": [
+        {
+          "texto": "Porque os desenvolvedores não sabem o que estão fazendo.",
+          "correta": false,
+          "justificativa": ""
+        },
+        {
+          "texto": "Porque o teste avalia o comportamento real, não apenas o código.",
+          "correta": true,
+          "justificativa": "Mesmo com revisões, o comportamento do sistema pode falhar. O teste é uma forma prática de verificar o que realmente acontece durante a execução."
+        },
+        {
+          "texto": "Porque o cliente exige que haja testadores.",
+          "correta": false,
+          "justificativa": ""
+        },
+        {
+          "texto": "Porque a automação cobre todos os erros.",
+          "correta": false,
+          "justificativa": ""
+        }
+      ]
+    },
+    {
+      "enunciado": "O que são testes de regressão?",
+      "complemento": "",
+      "imagem": null,
+      "legendaImagem": null,
+      "opcoes": [
+        {
+          "texto": "Testes feitos somente na primeira versão do sistema.",
+          "correta": false,
+          "justificativa": ""
+        },
+        {
+          "texto": "Testes feitos para validar correções de defeitos.",
+          "correta": false,
+          "justificativa": ""
+        },
+        {
+          "texto": "Testes para verificar se alterações introduziram novos defeitos.",
+          "correta": true,
+          "justificativa": "Testes de regressão garantem que mudanças no código não tenham quebrado funcionalidades existentes."
+        },
+        {
+          "texto": "Testes aplicados somente após a homologação.",
+          "correta": false,
+          "justificativa": ""
+        }
+      ]
+    },
+    {
+      "enunciado": "Quando os testes devem começar no ciclo de desenvolvimento?",
+      "complemento": "",
+      "imagem": null,
+      "legendaImagem": null,
+      "opcoes": [
+        {
+          "texto": "Somente após o código estar completo.",
+          "correta": false,
+          "justificativa": ""
+        },
+        {
+          "texto": "Assim que o sistema for colocado em produção.",
+          "correta": false,
+          "justificativa": ""
+        },
+        {
+          "texto": "O mais cedo possível, com base nos requisitos.",
+          "correta": true,
+          "justificativa": "Testar cedo ajuda a identificar problemas logo no início, reduzindo custos e retrabalho."
+        },
+        {
+          "texto": "Quando os desenvolvedores autorizarem.",
+          "correta": false,
+          "justificativa": ""
+        }
+      ]
+    },
+    {
+      "enunciado": "O que é teste de usabilidade?",
+      "complemento": "",
+      "imagem": null,
+      "legendaImagem": null,
+      "opcoes": [
+        {
+          "texto": "Testar o desempenho do sistema.",
+          "correta": false,
+          "justificativa": ""
+        },
+        {
+          "texto": "Testar a integração entre sistemas.",
+          "correta": false,
+          "justificativa": ""
+        },
+        {
+          "texto": "Testar o quão fácil e intuitivo é o sistema para o usuário.",
+          "correta": true,
+          "justificativa": "Usabilidade avalia a experiência do usuário, verificando clareza, facilidade de navegação, acessibilidade, etc."
+        },
+        {
+          "texto": "Testar falhas ocultas no banco de dados.",
+          "correta": false,
+          "justificativa": ""
+        }
+      ]
+    },
+    {
+      "enunciado": "O que é um defeito mascarado?",
+      "complemento": "",
+      "imagem": null,
+      "legendaImagem": null,
+      "opcoes": [
+        {
+          "texto": "Um defeito resolvido recentemente.",
+          "correta": false,
+          "justificativa": ""
+        },
+        {
+          "texto": "Um defeito ocultado por outra funcionalidade.",
+          "correta": true,
+          "justificativa": "Um defeito mascarado não se manifesta porque outra funcionalidade evita sua ocorrência."
+        },
+        {
+          "texto": "Um defeito presente na interface gráfica.",
+          "correta": false,
+          "justificativa": ""
+        },
+        {
+          "texto": "Um defeito evidente no código.",
+          "correta": false,
+          "justificativa": ""
+        }
+      ]
+    },
+    {
+      "enunciado": "O que é validação no contexto de teste?",
+      "complemento": "",
+      "imagem": null,
+      "legendaImagem": null,
+      "opcoes": [
+        {
+          "texto": "Avaliar se o produto atende aos requisitos do cliente.",
+          "correta": true,
+          "justificativa": "Validação verifica se o sistema atende às necessidades reais dos usuários (Are we building the right product?)."
+        },
+        {
+          "texto": "Avaliar se o código está bem documentado.",
+          "correta": false,
+          "justificativa": ""
+        },
+        {
+          "texto": "Corrigir falhas após o teste.",
+          "correta": false,
+          "justificativa": ""
+        },
+        {
+          "texto": "Escrever casos de teste automáticos.",
+          "correta": false,
+          "justificativa": ""
+        }
+      ]
+    },
+    {
+      "enunciado": "O que é verificação no contexto de teste?",
+      "complemento": "",
+      "imagem": null,
+      "legendaImagem": null,
+      "opcoes": [
+        {
+          "texto": "Testar apenas casos extremos.",
+          "correta": false,
+          "justificativa": ""
+        },
+        {
+          "texto": "Avaliar se o sistema foi construído corretamente.",
+          "correta": true,
+          "justificativa": "Verificação garante que o sistema foi desenvolvido conforme os requisitos técnicos e especificações (Are we building the product right?)."
+        },
+        {
+          "texto": "Confirmar se os dados foram salvos no banco.",
+          "correta": false,
+          "justificativa": ""
+        },
+        {
+          "texto": "Validar a opinião do cliente.",
+          "correta": false,
+          "justificativa": ""
+        }
+      ]
+    }
+  ]
+}
